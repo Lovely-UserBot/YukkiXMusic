@@ -34,6 +34,22 @@ def url_markup(videoid, duration, user_id, query, query_type):
                 callback_data=f"forceclose {query}|{user_id}",
             ),
         ],
+        [
+            InlineKeyboardButton(
+                text="Updates",
+                url=f"t.me/ABOUTVEDMAT",
+            ),
+            InlineKeyboardButton(
+                text="Support",
+                url=f"t.me/LOVELYAPPEAL",
+            ),
+        ],
+        [
+            InlineKeyboardButton(
+                text="Kidnap me",
+                url=f"t.me/LOVELYR_OBOT?startgroup=true",
+            ),
+        ],
     ]
     return buttons
 
