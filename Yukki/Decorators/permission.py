@@ -31,6 +31,6 @@ def PermissionCheck(mystic):
                 + "\n**Permission:** __INVITE USERS VIA LINK__"
             )
             return
-        return await mystic(_, message)
+        return await mystic(_message)
 
     return wrapper
