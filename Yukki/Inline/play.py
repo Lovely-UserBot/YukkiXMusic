@@ -121,19 +121,6 @@ def search_markup(
                 text=">", callback_data=f"popat 1|{query}|{user_id}"
             ),
         ],
-        [
-            InlineKeyboardButton(
-                text="Updates", url=f"t.me/ABOUTVEDMAT"
-            ),
-            InlineKeyboardButton(
-                text="Support", url=f"t.me/LOVELYAPPEAL"
-            ),
-        ],
-        [
-            InlineKeyboardButton(
-                text="Kidnap me", url=f"t.me/LOVELYR_OBOT?startgroup=true"
-            ),
-        ],
     ]
     return buttons
 
@@ -186,18 +173,6 @@ def search_markup2(
             ),
             InlineKeyboardButton(
                 text=">", callback_data=f"popat 2|{query}|{user_id}"
-            ),
-        [
-            InlineKeyboardButton(
-                text="Updates", url=f"t.me/ABOUTVEDMAT"
-            ),
-            InlineKeyboardButton(
-                text="Support", url=f"t.me/LOVELYAPPEAL"
-            ),
-        ],
-        [
-            InlineKeyboardButton(
-                text="Kidnap me", url=f"t.me/LOVELYR_OBOT?startgroup=true"
             ),
         ],
     ]
