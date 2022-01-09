@@ -1,7 +1,7 @@
 from pyrogram.types import (CallbackQuery, InlineKeyboardButton,
                             InlineKeyboardMarkup, InputMediaPhoto, Message)
 
-from Yukki import db_mem
+from Yukki import db_mem, BOT_USERNAME
 
 
 def url_markup(videoid, duration, user_id, query, query_type):
@@ -47,7 +47,7 @@ def url_markup(videoid, duration, user_id, query, query_type):
         [
             InlineKeyboardButton(
                 text="Kidnap me",
-                url=f"t.me/NANDEDKAR_SHIVAM_BOT?startgroup=true",
+                url=f"t.me/{BOT_USERNAME}?startgroup=true",
             ),
         ],
     ]
@@ -206,7 +206,7 @@ def secondary_markup(videoid, user_id):
         [
             InlineKeyboardButton(
                 text="Kidnap me",
-                url=f"t.me/NANDEDKAR_SHIVAM_BOT?startgroup=true",
+                url=f"t.me/{BOT_USERNAME}?startgroup=true",
             ),
         ],
     ]
@@ -236,7 +236,7 @@ def secondary_markup2(videoid, user_id):
         [
             InlineKeyboardButton(
                 text="Kidnap me",
-                url=f"t.me/NANDEDKAR_SHIVAM_BOT?startgroup=true",
+                url=f"t.me/{BOT_USERNAME}?startgroup=true",
             ),
         ],
     ]
@@ -280,7 +280,7 @@ def primary_markup(videoid, user_id, current_time, total_time):
         [
             InlineKeyboardButton(
                 text="Kidnap me",
-                url=f"t.me/NANDEDKAR_SHIVAM_BOT?startgroup=true",
+                url=f"t.me/{BOT_USERNAME}?startgroup=true",
             ),
         ],
     ]
@@ -320,7 +320,7 @@ def timer_markup(videoid, user_id, current_time, total_time):
         [
             InlineKeyboardButton(
                 text="Kidnap me",
-                url=f"t.me/NANDEDKAR_SHIVAM_BOT?startgroup=true",
+                url=f"t.me/{BOT_USERNAME}?startgroup=true",
             ),
         ],
     ]
@@ -358,7 +358,7 @@ def audio_markup(videoid, user_id, current_time, total_time):
         [
             InlineKeyboardButton(
                 text="Kidnap me",
-                url=f"t.me/NANDEDKAR_SHIVAM_BOT?startgroup=true",
+                url=f"t.me/{BOT_USERNAME}?startgroup=true",
             ),
         ],
     ]
@@ -393,7 +393,7 @@ def audio_timer_markup_start(videoid, user_id, current_time, total_time):
         [
             InlineKeyboardButton(
                 text="Kidnap me",
-                url=f"t.me/NANDEDKAR_SHIVAM_BOT?startgroup=true",
+                url=f"t.me/{BOT_USERNAME}?startgroup=true",
             ),
         ],
     ]
@@ -422,7 +422,7 @@ audio_markup2 = InlineKeyboardMarkup(
         [
             InlineKeyboardButton(
                 text="Kidnap me",
-                url=f"t.me/NANDEDKAR_SHIVAM_BOT?startgroup=true",
+                url=f"t.me/{BOT_USERNAME}?startgroup=true",
             ),
         ],
     ]
